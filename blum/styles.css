@@ -34,8 +34,8 @@ a:hover{
 
 #hamburger-nav{
     display:none;
-    gap:200px;
-    position:fixed;
+   gap:200px;
+    
 }
 .hamburger-menu{
       position:relative;
@@ -107,7 +107,7 @@ a:hover{
 .section-p{
       display:flex;
       align-items:center;
-      padding-left:200px;
+      justify-content:center;
     
       gap:170px;
       height:100vh;
@@ -167,10 +167,11 @@ a:hover{
       display:flex;
       gap:40px;
       align-items:center;
-      padding-left:200px;
-      min-height:40px;
-      padding-bottom:-50px;
+      justify-content:center;
+     
+      
       height:100vh;
+      
    
 }
 .about-me{
@@ -232,8 +233,9 @@ article{
  .details-color-container{
      display:flex;
      justify-content:center;
-     gap:30px;
-     height:100vh;    
+     gap:20px;
+     height:100vh;
+     flex-direction:column;   
  }
  .project-containers{
       text-align:center;

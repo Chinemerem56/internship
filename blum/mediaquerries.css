@@ -1,30 +1,57 @@
 @media screen and (max-width: 920px) {
       #portfolio {
            height:80vh;
-           margin-bottom:6rem;
+           
       }
-      
-      .section-pic img{
-            flex-wrap:wrap;
+       
+          
       }
-}
+
 
 
 
 @media screen and (max-width: 893px) {
       #desktop-link {
             display:none;
+           
+           
       }
       #hamburger-nav{
             display:flex;
       }
-      #service,
+      
       .service-details-container{
-            margin-top:2rem;
+           display:block;
+           align-items:center;
+           padding-bottom:100px;
+          
+          
       }
-      #portfolio,.section-p{
+      .section-p{
             display:block;
-            padding-top:150px;
-            justify-content:space-between;
+            padding-left:100px;
+            padding-top:50px;
+            height:100vh;
+                 
+      }
+      
+      
+     
+
+      .about-container{
+           display:block;
+           padding-top:100px;
+           padding-left:100px;
+           padding-bottom:100px;
+           height:100vh;
+      }   
+     .details-color-container{
+         padding-left:100px;
+     }
+      .contact-info-upper-container{
+            padding-left:100px;
+      }
+      footer{
+            padding-left:70px;
       }
 }
